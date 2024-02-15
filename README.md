@@ -1,1 +1,2 @@
-# python-for-beginers-
+I'm a second year computer science student at Framingham State University. At my university, we always use Java language for all of our core required major courses. However as I'm advancing through my degree and oppurtunities arise, learning other programming languages is essential. In this repository, I will 
+be doing basics and exercises I did in Java, and remaking them in Python. Ranging from print statements all the way to LeetCode hard problems. Enjoy!
