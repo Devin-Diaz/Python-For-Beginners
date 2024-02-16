@@ -19,6 +19,7 @@ print(f"Devin is {age} years old") # WITH STRING INTERPOLATION
 
 
 
+
 # 3. Conditionals - associated with boolean(T/F) type
 
 a = 10
@@ -45,16 +46,33 @@ elif b > a:
 else: print('equal')
 
 
+
+
 # 5. For Loops - do multiple actions based on given iterations
 
-for i in range(6):  # print numbers 0 - 5. The number in the parameter is always inclusive when it's in this format
+#( starting number, ending number(exclusive), size of increment)
+
+for i in range(6):  # print numbers 0 - 5. The number in the parameter is always exclusive when it's in this format
     print(i)
 
-for i in range(2, 5): # print numbers 2 - 4. Recall only the ending number of our range is inclusive 
+for i in range(2, 5): # print numbers 2 - 4. Recall only the ending number of our range is exclusive 
     print(i)
 
-for i in range(0, 6, 2): #
+for i in range(0, 6, 2): #print numbers 0, 2, 4. The third number in our parameter of range (#, #, 2), is by how much i increments by on each iteration. 
     print(i)
+
+
+
+
+
+# 6. Math review - PEMMDAS - Parentheses(), Exponents **, (Mod %, multiplication *, (order doesn't matter)), Division /, Addition +, Subtraction -
+
+#Mod % - gives remainder if any after division
+print(17 % 5) # = 2
+
+#Exponents ** or pow() - we can do this manually or use a built in function
+
+
 
 
 
