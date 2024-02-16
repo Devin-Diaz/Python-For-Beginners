@@ -228,6 +228,19 @@ def add(x, y):
 print(add(2, 1)) # calling function add and printing it's output: 3
 
 
+
+#define a function that iterates through a list of elements, if the list contains an element, return True, otherwise null
+def existing_number(num, list):
+    for i in range(len(list)): # iterate through list, (index 0 to list length - 1)
+        if list[i] == num: #checks if element on current iteration is the number we are looking for
+            return True # success!
+    return None # number not found
+
+print(existing_number(2, [1, 4, 5, 6, 2])) # would return TRUE
+
+
+
+
 #define a void function that updates a boolean statement from false to true or vice versa
 def boolUpdater(statement):
     if statement == True:
