@@ -19,7 +19,7 @@ print("Devin is " + str(age) + " years old") # NO STRING INTERPOLATION, it's not
 
 print(f"Devin is {age} years old") # WITH STRING INTERPOLATION
 
-
+#djhskdjskdjskl
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
