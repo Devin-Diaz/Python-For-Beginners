@@ -19,6 +19,8 @@ Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
 """
 
+#REMAKE THIS FOR IT TO BE MORE CLEAR
+
 # TC: O(n^2) approach
 # SC: O(1)
 # We used nested for loops. Say we have the list [1, 2, 3, 2]. Our outer loop denoted i starts at element 1, then we drop to the,
@@ -38,6 +40,7 @@ def containsDuplicate1(nums):
 
 #------------------------------------------------------------------------------------------------------------------------------------------------
 
+#REMAKE THIS AS WELL
 
 # TC: O(n) approach
 # SC: O(n)
