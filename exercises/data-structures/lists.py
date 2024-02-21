@@ -212,9 +212,39 @@ print(numbers[0 : 8 : 2]) # -> [0, 3, 5, 7] elements
 #-----------------------------------------------------------------------------------------------------------------------
 
 
+'''
+In other programming languages such as Javva and C#, they have a built in function called toCharArray().
+In python, this does not exist. What this function does is it converts a string literal into 
+seperate characters in a list. 
+
+For example:
+
+"hello" -> ['h', 'e', 'l', 'l', 'o']
+
+Although a built in function does not exist, there are alternatives to achieve thisr result.
+
+'''
+
+#1. We can iterate through each element in the string that being a letter and append each
+#each letter into a new list.
+
+word = "devin"
+char_arr = [char for char in word]
+print(char_arr) # -> ['d', 'e', 'v', 'i', 'n']
+
+#in plain english this reads as, create a list that contains each character char for every
+#character char in the word.
+
+#note that char is a variable and it can be anything, but common practice is char or c
 
 
 
+#2. we can use the the list() function. This takes an argument of an expression, it will convert
+#each of it's elements in the expression into an array. In this case a string into a char array.
+
+name = "devin"
+char_arr = list(name)
+print(char_arr)
 
 
 
