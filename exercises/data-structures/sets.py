@@ -3,6 +3,8 @@
 A set is an unordered collection of unique elements. A set has the following properties
 Elements are unordered with no position or index
 Elements are unique, no elements in the set share the same value
+Sets are mutable:
+    Set elements themselves are immutable 
 '''
 
 #----------------------------------------------------------------------------------------------
