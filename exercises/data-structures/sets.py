@@ -22,6 +22,7 @@ set1[0] # will produce a runtime error
 
 #Creating a set: 
 set([4, 5, 6, 7]) # {4, 5, 6, 7}
+# we are casting a set to a list
 
 #or 
 
