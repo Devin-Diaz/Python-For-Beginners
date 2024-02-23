@@ -22,12 +22,14 @@ print(20 not in prices) # False
 
 employee_roster = ["Kevin", "Martha", "Melissa", "Sage", "Johnathon"]
 
-def check_roster(name):
+def check_roster():
     name = input("Who are you: ")
     if name in employee_roster:
         print(f"{name}, welcome back.")
     else: 
-        print(f"Would you like a job application?") 
+        print(f"You are not on the current employee roster.")
+
+check_roster() 
 
     #Will print "name" welcome back if inputted name is found in employee_roster
     #Note no need to use an elif not in statement
@@ -36,14 +38,16 @@ def check_roster(name):
 
 #Example using not in to ensure uniqueness when creating a list, such as players choosing jersey numbers
 
-list_numbers = []
+list_numbers = [1, 2, 3, 4, 5]
 
-def add_number(number):
+def add_number():
     number = input("What number would you like?: ")
     if number not in list_numbers:
         print(f"Congratulations! {number} is your number!")
     else: 
         print("Sorry, that number is already taken.")
+
+add_number()
 
 #-----------------------------------------------------------------------------------------------------
         
