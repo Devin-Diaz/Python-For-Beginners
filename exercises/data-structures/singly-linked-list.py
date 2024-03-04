@@ -47,13 +47,13 @@ Terminology:
         
 VISUAL:
 
-    NODE =  [ | ]      NEXT = -->
+    NODE =  [ | ]      REF/NEXT = -->
 
-            head                                        tail
-    [ "Devin" | ref ]  -->  [ "Mark" | ref ] --> [ "Munez" | ref ] --> None
+            head                                        
+    [ "Devin" | next ]  -->  [ "Mark" | next ] --> [ "Munez" | next ] --> None
 
     Reading this in plain English the head of our list starts with a node containing the data "Devin" and contains
-    a reference the points to the data "Mark". 
+    a reference that points to the data "Mark". 
     = [ "Devin" | ref ]
     Starting to use a little syntax, if we did 
 
