@@ -152,7 +152,7 @@ Output: [1, 2, 3, 4]
 
     We've arrived at our answer
 '''
-from exercises import Node
+from data_structures.singly_linked_list import Node
 
 
 
