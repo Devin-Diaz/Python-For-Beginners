@@ -193,9 +193,33 @@ Final.
     
 
  We can see that we made a total of 15 recursive calls including the ones that lead to None.
- Thus we have a time complexity of O(N)
+ Thus we have a time complexity of O(N). Note that the order of the recursive calls is incorrect
+ however the concept remains the same and has the same outcome. 
+ (aka I'm lazy however its more visually appealing)
 
 '''
 
-#CODE:
+#CODE: TC: O(N)    SC: O(1)
+
+
+def invertBinaryTree(self, root):
+  """
+  :type root: TreeNode
+  :rtype: TreeNode
+  """
+
+  if root is None:
+    return root
+  
+  left = root.left
+  right = root.right
+
+  root.left = self.invertBinaryTree(right)
+  root.right = self.invertBinaryTree(left)
+
+  return root
+
+
+
+#end of problem
 
